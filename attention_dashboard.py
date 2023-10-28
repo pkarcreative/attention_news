@@ -10,7 +10,7 @@ st.set_page_config(layout="wide")
 #left_column, right_column = st.columns(2)
 
 show = 1
-attention_yes = pd.read_csv(r"D:\gdelt_Pintu\attention_OpenAI_yes.csv")
+attention_yes = pd.read_csv("attention_OpenAI_yes.csv")
 attention_yes.loc[980, "Justification"] = "This article is relvant."
 
 
