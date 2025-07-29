@@ -14,7 +14,6 @@ attention_yes = pd.read_csv("attention_OpenAI_yes.csv")
 attention_yes.loc[980, "Justification"] = "This article is relvant."
 
 
-
 default_date = datetime(2023, 10, 13)
 min_date = datetime(2020, 1, 1)
 start_date_max = datetime(2023, 10, 12)
