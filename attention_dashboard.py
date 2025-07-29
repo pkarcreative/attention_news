@@ -88,7 +88,6 @@ if show == 1:
     world_data = world.merge(df, left_on='name', right_on='name')
     
 
-    
     # Set up your Streamlit app
     
     
